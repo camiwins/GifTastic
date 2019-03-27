@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CLP GifTastic</title>
+    <!-- CSS LINKS -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron" style="background-color:#7851a9;">
+            <h1 class="display-3 text-center">GifTastic<img src="assets/images/rainbowcat.gif"></h1>
+            <p class="lead text-center">You ever get the rumbly in your tumbly? Add your favorite food and gobble up
+                the num nums.</p>
+            <div class="row">
+                    
+                <div class="col-5">
+                    <!-- ADD  -->
+                    <div class="container" id="addBox">
+                        <!-- FOOD FORM-->
+                        <form id="food-form">
+                            <!-- FOOD SEARCH TEXT BOX -->
+                            <label for="food-input">Hungry?</label>
+                            <br>
+                            <input type="text" id="food-input">
+                            <br>
+                            <!-- FOOD SEARCH SUBMIT BUTTON -->
+                            <input id="add-food" type="submit" value="Add" class="btn btn-dark">
+                        </form>
+                    </div>
+            
+                </div>
+                <!-- BUTTONS  -->
+                <div class="col-5">
+                    <div class="container" id="buttonBox">
+                    </div>
+                </div>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+
+            <!-- GIFS  -->
+            <div class="col">
+                <div class="container" id="gifBox">
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- JAVASCRIPT LINKS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+        <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
