@@ -1,0 +1,21 @@
+p, h1, div {
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    font-size: 14px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+.btn {
+    margin: 5px;
+}
+body {
+    background-color: black !important;
+};
+
+#cat {
+    height: 20%;
+    width: 20%;
+}
